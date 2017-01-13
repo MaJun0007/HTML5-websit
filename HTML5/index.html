@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MJ Design</title>
+    <link href="css/css.css" rel="stylesheet">
+</head>
+<body>
+<nav id="nav">
+    <ul>
+        <li><a href="#home" class="main_link">主页</a></li>
+        <li><a href="#portfolio" class="main_link">作品展示</a></li>
+        <li><a href="#falls" class="main_link">瀑布展示</a></li>
+        <li>
+            <div  id="search">
+                <span class="search icon">Search</span>
+                <input type="text" placeholder="搜索">
+            </div>
+        </li>
+        <li class="fd_right">
+            <ul id="btn_list">
+                <li id="logoIn_li">
+                    <button id="logoIn">登录</button>
+                    <ul id="logoIn_list">
+                        <li class="qq logoIn_icon" title="QQ登录">qq</li>
+                        <li class="weixin logoIn_icon" title="微信登录">weixin</li>
+                        <li class="xinlang logoIn_icon" title="新浪微博">weixin</li>
+                        <li class="phone logoIn_icon" title="手机登录">phone</li>
+                    </ul>
+                </li>
+                <li><button id="register">注册</button></li>
+                <li id="calendar_li">
+                    <a href="#" id="calendar_btn" title="日历">日历</a>
+                    <div class="calendar">
+                        <div class="title">
+                            <h1 class="green" id="calendar_title">MONTH</h1>
+                            <h2 class="green" id="calendar_year">year</h2>
+                            <a href="" id="prev">Prev Month</a>
+                            <a href="" id="next">Next Month</a>
+                        </div>
+                        <div class="body">
+                            <div class="green body_list">
+                                <ul>
+                                    <li>日</li>
+                                    <li>一</li>
+                                    <li>二</li>
+                                    <li>三</li>
+                                    <li>四</li>
+                                    <li>五</li>
+                                    <li>六</li>
+                                </ul>
+                            </div>
+                            <div class="drakgrey body_list">
+                                <ul id="days"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </li>
+
+
+    </ul>
+</nav>
+<div id="register_popup">
+    <div id="register_pop_bg"></div>
+    <div id="register_pop_content">
+        <button class="close"></button>
+        <ul id="register_title">
+            <li><h1 class="active">手机注册</h1></li>
+            <li><h1>邮箱注册</h1></li>
+        </ul>
+        <form name="form" method="get" action="" id="form">
+            <table width="70%" border="0" align="center">
+                <tbody>
+                    <tr>
+                        <td colspan="3">
+                            <input type="text" id="uphone" placeholder="请输入手机号码">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" id="utext" placeholder="请输入短信验证码">
+                        </td>
+                        <td>
+                            <input type="button" id="get_utext" value="获取验证码"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="text" id="upsd" placeholder="请输入密码">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="checkbox" checked id="checkbox">我已阅读并同意 <a href="#">《用户协议》</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="button" value="注册" id="register_button">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="sl_info">滑块验证</td>
+                        <td colspan="2" id="sl_yz">
+                            <div id="upic">
+                                <div id="drag"></div>
+                                <div id="dot"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            使用以下帐号直接登录：
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <ul id="other_register">
+                                <li><a href="#"  class="qq_r"></a></li>
+                                <li><a href="#"  class="wx_r"></a></li>
+                                <li><a href="#"  class="xl_r"></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+<div id="side_nav">
+    <ul>
+        <li><a href="#home" id="link1">My Design</a></li>
+        <li><a href="#about" id="link2">关于我们</a></li>
+        <li><a href="#service" id="link3">服务</a></li>
+    </ul>
+</div>
+<section id="content">
+    <article id="home">
+        <h1>MJ DESIGN</h1>
+        <p>一个体验的创新机构，提供跨社交，移动和其它平台的品牌内容。</p>
+    </article>
+    <article id="about">
+        <h1>关于我们</h1>
+        <p>我们的目标一直是做的最好的工作，尽可能为我们的客户。有所改变的是我们能够做到这一点的方式。我们已经从一开始就是以数字为中心的机构，所以我们有机会观看数字演变和发展沿着它。不管所在的行业已经走了，我们已经使用每一个新的创新，以此来更好的为客户与消费者连接。</p>
+    </article>
+    <article id="service">
+        <h1>服务</h1>
+        <p>数字广告是一个完全不同的动物比它的时候，我们就开始了。这不仅仅是因为技术已经改变了，但品牌采用的技术与消费者连接的方式发生了变化，因为有基本的品牌 - 消费者关系的性质。</p>
+        <p>我们很幸运，我们就在这个转型中起步，所以一个变化的领域，几乎感觉就像回家给我们。</p>
+    </article>
+</section>
+<section id="portfolio">
+    <article id="portfolio_content">
+        <h1>作品展示</h1>
+        <ul>
+            <li><a href="#work1" class="portfolio_link">作品1</a></li>
+            <li><a href="#work2" class="portfolio_link">作品2</a></li>
+            <li><a href="#work3" class="portfolio_link">作品3</a></li>
+            <li><a href="#work4" class="portfolio_link">作品4</a></li>
+            <li><a href="#work5" class="portfolio_link">作品5</a></li>
+        </ul>
+    </article>
+    <article id="work1">
+        <img src="images/work1.jpg">
+
+        <h2>作品1</h2>
+
+        <p>数字广告是一个完全不同的动物比它的时候，我们就开始了。这不仅仅是因为技术已经改变了，但品牌采用的技术与消费者连接的方式发生了变化，因为有基本的品牌 - 消费者关系的性质。 </p>
+
+        <p>我们很幸运，我们就在这个转型中起步，所以一个变化的领域，几乎感觉就像回家给我们。</p>
+    </article>
+    <article id="work2">
+        <img src="images/work2.jpg">
+
+        <h2>作品2</h2>
+
+        <p>数字广告是一个完全不同的动物比它的时候，我们就开始了。这不仅仅是因为技术已经改变了，但品牌采用的技术与消费者连接的方式发生了变化，因为有基本的品牌 - 消费者关系的性质。 </p>
+
+        <p>我们很幸运，我们就在这个转型中起步，所以一个变化的领域，几乎感觉就像回家给我们。</p>
+    </article>
+    <article id="work3">
+        <img src="images/work3.jpg">
+
+        <h2>作品3</h2>
+
+        <p>数字广告是一个完全不同的动物比它的时候，我们就开始了。这不仅仅是因为技术已经改变了，但品牌采用的技术与消费者连接的方式发生了变化，因为有基本的品牌 - 消费者关系的性质。 </p>
+
+        <p>我们很幸运，我们就在这个转型中起步，所以一个变化的领域，几乎感觉就像回家给我们。</p>
+    </article>
+    <article id="work4">
+        <img src="images/work4.jpg">
+
+        <h2>作品4</h2>
+
+        <p>数字广告是一个完全不同的动物比它的时候，我们就开始了。这不仅仅是因为技术已经改变了，但品牌采用的技术与消费者连接的方式发生了变化，因为有基本的品牌 - 消费者关系的性质。 </p>
+
+        <p>我们很幸运，我们就在这个转型中起步，所以一个变化的领域，几乎感觉就像回家给我们。</p>
+    </article>
+    <article id="work5">
+        <img src="images/work5.jpg">
+
+        <h2>作品5</h2>
+
+        <p>数字广告是一个完全不同的动物比它的时候，我们就开始了。这不仅仅是因为技术已经改变了，但品牌采用的技术与消费者连接的方式发生了变化，因为有基本的品牌 - 消费者关系的性质。 </p>
+
+        <p>我们很幸运，我们就在这个转型中起步，所以一个变化的领域，几乎感觉就像回家给我们。</p>
+    </article>
+    <div id="popup">
+        <div id="pop_bg"></div>
+        <div id="pop_content">
+            <button class="close"></button>
+            <div id="popup_holder">
+
+            </div>
+        </div>
+    </div>
+</section>
+<section id="falls">
+    <div id="falls_bg"></div>
+    <div id="container">
+        <div class="col">
+            <div class="pic">
+                <img src="images/falls_images/1.jpg">
+                <p>In sagittis sit amet lacus non luctus. In hac habitasse platea dictumst. Donec consequat felis odio, non mollis ipsum dictum blandit.</p>
+            </div>
+            <div class="pic">
+                <img src="images/falls_images/2.jpg">
+                <p>Vestibulum sapien elit, malesuada in augue quis, ultrices volutpat massa.</p>
+            </div>
+            <div class="pic">
+                <img src="images/falls_images/3.jpg">
+                <p>Aliquam ut euismod mi. Suspendisse nec justo tincidunt, cursus mauris in, ullamcorper mauris.</p>
+            </div>
+            <div class="pic">
+                <img src="images/falls_images/4.jpg">
+                <p>Fusce maximus odio in dolor iaculis, finibus pulvinar nisl blandit.</p>
+            </div>
+            <div class="pic">
+                <img src="images/falls_images/5.jpg">
+                <p>Cras pretium interdum orci eu mollis.</p>
+            </div>
+            <div class="pic">
+                <img src="images/falls_images/6.jpg">
+                <p>Maecenas at urna pellentesque, suscipit massa et, mattis odio. Duis quis egestas ligula, quis faucibus felis.</p>
+            </div>
+            <div class="pic">
+                <img src="images/falls_images/7.jpg">
+                <p>Integer quis justo ornare, tempor purus at, efficitur justo.</p>
+            </div>
+            <div class="pic">
+                <img src="images/falls_images/8.jpg">
+                <p>Sed libero lectus, mollis non feugiat sed, viverra at dolor.</p>
+            </div>
+            <div class="pic">
+                <img src="images/falls_images/9.jpg">
+                <p>Mauris mattis orci a ligula molestie consequat.</p>
+            </div>
+            <div class="pic">
+                <img src="images/falls_images/10.jpg">
+                <p>Aenean quis quam ac ex viverra pulvinar nec non lectus.</p>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/main.js"></script>
+</html>
